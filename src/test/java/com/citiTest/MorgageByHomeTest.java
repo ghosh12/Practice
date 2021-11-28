@@ -19,6 +19,8 @@ public class MorgageByHomeTest extends Base {
         String actualText = morgageByHome.saveTimeText();
         Assert.assertEquals(actualText,"Save time");
         System.out.println("Second Branch Test");
+
+        System.out.println("Passed");
     }
 
 }
