@@ -70,6 +70,9 @@ public class HomePage extends Base {
        return new MorgageByHome();
 }
 
+    public void setBankingLink(WebElement bankingLink) {
+        this.bankingLink = bankingLink;
+    }
     //a[text()='Investing']
     //li//a[text()='Investing Overview']
 
